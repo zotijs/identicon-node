@@ -1,0 +1,1 @@
+export { createIdenticon } from "./createIdenticon";
