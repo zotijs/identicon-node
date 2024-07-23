@@ -45,6 +45,6 @@ const size = identiconConfig?.size ? Number(identiconConfig.size) : 5;
 
 // convert the rgb values to a hex color
 const identiconColor = rgbToHex(r, g, b);
-const identiconSquares = createIdenticon({ binary, size });
+const identiconSquares = createIdenticon(binary, size); // createIdenticon({ binary, size });
 
 createImage(identiconColor, identiconSquares);

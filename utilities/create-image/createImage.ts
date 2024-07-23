@@ -9,7 +9,7 @@ const SQUARE_SIZE = 16;
  * @param color the color of the identicon filled squares
  * @param squares the squares that make up the identicon
  */
-export const createImage = (color: string, squares: Uint8Array) => {
+export const createImage = (color: string, squares: number[]) => {
   const size = Math.sqrt(squares.length);
 
   const canvas = createCanvas(size * SQUARE_SIZE, size * SQUARE_SIZE);
