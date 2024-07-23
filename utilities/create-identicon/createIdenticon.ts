@@ -1,7 +1,7 @@
 /**
  *
  * @param binary the Buffer that will generate the identicon
- * @param size x and y size of the identicon
+ * @param rowSize size of the identicon's row
  * @returns a flattened array that represents the identicon's bits
  */
 export const createIdenticon = (
